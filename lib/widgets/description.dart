@@ -54,6 +54,7 @@ class Description extends StatelessWidget {
             ),
           ),
           InkWell(
+            // ignore: deprecated_member_use
             onTap: () async => !await launch(
                 'https://mail.google.com/mail/u/0/?fs=1&to=umershahzad0346@gmail.com&tf=cm'),
             child: Text("Let's chat me",
